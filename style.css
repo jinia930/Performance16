@@ -1,0 +1,96 @@
+/* div{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+} */
+.box1{
+    background-color: aquamarine;
+    left: 100000;
+    top: 900;
+    z-index: 1;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+.box2{
+    background-color: rgb(68, 148, 121);
+    left: 100px;
+    top: 100px;
+    z-index: 2;
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+.box3{
+    background-color: rgb(47, 101, 83);
+    left: 180px;
+    top: 2px;
+    z-index: 3;
+    height: 200px;
+    width: 200px;
+    position: relative;
+
+}
+.overflow{
+    height: 200px;
+    width: 1650px;
+    border: 5px solid aquamarine;
+    overflow:auto ;
+    
+}
+.overflow2{
+    height: 200px;
+    width: 1620px;
+    border: 10px dashed rgb(64, 140, 115);
+    overflow:auto ;
+    
+}
+.box4{
+    width: 33%;
+    float: right;
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+}
+.box5{
+    width: 33%;
+    float: left;
+    background-color: rgb(85, 160, 135);
+    height: 200px;
+    width: 200px;
+}
+.box6{
+    width: 33%;
+    float: right;
+    background-color: rgb(41, 80, 67);
+    height: 200px;
+    width: 200px;
+}
+.box9{
+    width: 33%;
+    float:left;
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+}
+.box8{
+    width: 33%;
+    float: right;
+    background-color: rgb(85, 160, 135);
+    height: 200px;
+    width: 200px;
+}
+.box7{
+    width: 33%;
+    float: left;
+    background-color: rgb(41, 80, 67);
+    height: 200px;
+    width: 200px;
+}
+.forimg{
+    height: 700px;
+    border: 5px solid aquamarine;
+}
+.forimg img{
+    float: right;
+}
